@@ -1,4 +1,6 @@
-/*  Napisz program, w którym użytkownik podaje swoje imię (dla uproszczenia może zaczynać się małą literą), a program oblicza ile samogłosek znajduje się w podanym imieniu i wyświetla wynik na ekranie. Ponadto, jeśli podane imię ma więcej niż 8 liter, to program powinien również wyświetlić stosowny komunikat. */ 
+/*  Napisz program, w którym użytkownik podaje swoje imię (dla uproszczenia może zaczynać się małą literą), 
+a program oblicza ile samogłosek znajduje się w podanym imieniu i wyświetla wynik na ekranie. 
+Ponadto, jeśli podane imię ma więcej niż 8 liter, to program powinien również wyświetlić stosowny komunikat. */ 
 
 #include <iostream>
 
