@@ -1,4 +1,8 @@
-/* Napisz program, w którym utworzysz tablicę o wymiarach 5 x 5 i wypełnisz ją liczbami w następujący sposób: pierwszy wiersz należy wypełnić kolejnymi liczbami naturalnymi od 1 do 5. Następnie w każdej kolumnie element znajdujący się niżej stanowi wynik mnożenia elementu znajdującego się wyżej przez liczbę równą: 5 - indeks obecnej kolumny. Następnie program ma znaleźć maksymalny i minimalny element dla każdego wiersza oraz sumę elementów znajdujących się na jednej i drugiej przekątnej tablicy. Program powinien wyświetlić na ekranie stworzoną tablicę, maksymalne i minimalne elementy dla każdego wiersza i sumy elementów leżących na przekątnych. */
+/* Napisz program, w którym utworzysz tablicę o wymiarach 5 x 5 i wypełnisz ją liczbami w następujący sposób: pierwszy wiersz należy wypełnić 
+kolejnymi liczbami naturalnymi od 1 do 5. Następnie w każdej kolumnie element znajdujący się niżej stanowi wynik mnożenia elementu
+znajdującego się wyżej przez liczbę równą: 5 - indeks obecnej kolumny. Następnie program ma znaleźć maksymalny i minimalny element
+dla każdego wiersza oraz sumę elementów znajdujących się na jednej i drugiej przekątnej tablicy. 
+Program powinien wyświetlić na ekranie stworzoną tablicę, maksymalne i minimalne elementy dla każdego wiersza i sumy elementów leżących na przekątnych. */
 #include <iostream> 
 using namespace std; 
 int main()
