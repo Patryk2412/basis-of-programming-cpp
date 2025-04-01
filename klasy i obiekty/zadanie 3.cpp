@@ -1,4 +1,4 @@
-/* 2. Napisz program, w którym stworzysz klasę Pracownik, a w niej: - publiczną zmienną typu string, która będzie przechowywała imię
+/* Napisz program, w którym stworzysz klasę Pracownik, a w niej: - publiczną zmienną typu string, która będzie przechowywała imię
 pracownika, - publiczną zmienną typu string, która będzie przechowywała nazwisko pracownika, - prywatną zmienną typu int, 
 która będzie przechowywała pensję pracownika, - chronioną (protected) zmienną typu bool o nazwie aktywny, która będzie 
 przechowywała informację czy dana osoba jest aktywnym pracownikiem. 
