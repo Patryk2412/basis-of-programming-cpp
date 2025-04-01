@@ -1,4 +1,4 @@
-/* 1. Zaimplementować klasę Pomiary, która przechowuje wykonywane pomiary (liczby
+/* Zaimplementować klasę Pomiary, która przechowuje wykonywane pomiary (liczby
 całkowite) i umożliwia odczyt pewnych wartości statystycznych.
 Metody publiczne:
 Pomiary();
