@@ -33,7 +33,10 @@ public:
     double minPrzejscie() const;
 };
 
-Las::Las() {}
+Las::Las() 
+{
+    
+}
 
 void Las::posadz(double px, double py, const string& gatunek) 
 {
@@ -47,7 +50,8 @@ int Las::ileDrzew() const
     return static_cast<int>(x.size());
 }
 
-int Las::wytnij(double px, double py, double r) {
+int Las::wytnij(double px, double py, double r) 
+{
     int licznik = 0;
          for (size_t i = 0; i < x.size();) 
         {
@@ -70,27 +74,34 @@ int Las::wytnij(double px, double py, double r) {
 int Las::wytnij(const string& gatunek) 
 {
     int licznik = 0;
-    for (size_t i = 0; i < gatunki.size();) 
+    for (size_t i = 0; i < gatunki.size(); i++) 
     {
-        if (gatunki[i] == gatunek) {
+        if (gatunki[i] == gatunek)
+        {
             gatunki.erase(gatunki.begin() + i);
             x.erase(x.begin() + i);
             y.erase(y.begin() + i);
             licznik++;
-        } else {
+        } 
+        else 
+        {
             i++;
         }
     }
     return licznik;
 }
 
-double Las::minPrzejscie() const {
+double Las::minPrzejscie() const 
+{
     if (x.size() < 2) return 0.0;
     double minDist = sqrt(pow(x[1] - x[0], 2) + pow(y[1] - y[0], 2));
-    for (size_t i = 0; i < x.size(); ++i) {
-        for (size_t j = i + 1; j < x.size(); ++j) {
+    for (size_t i = 0; i < x.size(); i++) 
+    {
+        for (size_t j = i + 1; j < x.size(); j++) 
+        {
             double dist = sqrt(pow(x[j] - x[i], 2) + pow(y[j] - y[i], 2));
-            if (dist < minDist) {
+            if (dist < minDist) 
+            {
                 minDist = dist;
             }
         }
