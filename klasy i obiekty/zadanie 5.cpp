@@ -1,4 +1,4 @@
-/* 2. Zaimplementować klasę Napis, której obiekty reprezentują napisy.
+/* Zaimplementować klasę Napis, której obiekty reprezentują napisy.
 Metody publiczne:
 Napis();
 Tworzy nowy pusty napis.
