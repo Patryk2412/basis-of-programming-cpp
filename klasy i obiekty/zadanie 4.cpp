@@ -81,8 +81,7 @@ int Pomiary::najwiekszy()
 int main()
 {
     Pomiary p; 
-    
-    //Dodajemy pomiary: 
+     
     p.dodaj(5); 
     p.dodaj(7); 
     p.dodaj(3); 
